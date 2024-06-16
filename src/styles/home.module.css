@@ -1,0 +1,48 @@
+.container {
+  margin: 10% 0;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+
+}
+
+.title {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(67, 67, 67);
+}
+
+.caption {
+  margin-bottom: 1%;
+  text-align: center;
+  font-size: 1rem;
+  color: rgb(67, 67, 67);
+}
+
+.caption a {
+  color: rgb(2, 135, 231);
+}
+
+.form {
+  display: flex;
+  margin-top: 1%;
+  justify-content: center;
+}
+.table{
+  border: 1px solid ;
+  border-collapse: collapse;
+  width: auto;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.table table{
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+}
+
+.table table, .table td, .table th{
+  border: 1px solid ;
+  padding: 5px 10px;
+}
